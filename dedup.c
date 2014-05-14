@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
        bool last_dup = false;
 
        if (argc < 2) {
-         fprintf(stderr, "you should specified the log file path\n");
+         fprintf(stderr, "you should specify the log file path\n");
          exit(EXIT_FAILURE);
        }
 
